@@ -18,7 +18,7 @@ ln -sf libcrypto.so.1.1.1 libcrypto.so.0
 ln -sf libcrypto.so.1.1.1 libcrypto.so
 ln -sf libssl.so.1.1.1 libssl.so.0
 ln -sf libssl.so.1.1.1 libssl.so
-cp -i /root/SSL.py /usr/local/lib/python2.7/dist-packages/OpenSSL/
+cp -i /home/SSL\ for\ w3af.py /usr/local/lib/python2.7/dist-packages/OpenSSL/
 pip install crypto xdot
 apt-get -y install python-gtksourceview2 graphviz
 cd /tmp/
